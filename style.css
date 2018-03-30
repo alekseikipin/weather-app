@@ -1,0 +1,64 @@
+body {
+    font-family: 'VT323', monospace;
+    background-color: black;
+    color: green;
+  }
+  
+  .change {
+    display: none;
+    margin-top: 20px;
+    font-size: 30px;
+    width: 180px;
+    justify-content: space-around;
+    padding: 10px 0;
+    border: 1px solid green;
+    font-family: 'VT323', monospace;
+    background: black;
+    color: green;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  p {
+    font-size: 30px;
+      margin: 0;
+  }
+  #weather {
+    font-size: 120px;
+  }
+  
+  .dot {
+    margin-left: 10px;
+    margin-bottom: -1px;
+    display: inline-block;
+    width: 4px;
+    height: 6px;
+    animation: pulse 1s infinite;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  #icon {
+    display: flex;
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  #temp {
+    font-size: 120px;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: green;
+    }
+    100% {
+      background-color: black;
+    }
+  }
