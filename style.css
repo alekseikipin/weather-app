@@ -1,8 +1,11 @@
 body {
-    margin: 10%;
+    margin: 5%;
     font-family: 'VT323', monospace;
     background-color: black;
-    color: green;
+  }
+  
+  h1, p, div {
+      color: green;
   }
   
   .change {
@@ -51,8 +54,9 @@ body {
     margin-right: 10px;
   }
   
-  #temp {
+  #tempsign {
     font-size: 120px;
+    color: #00B09B;
   }
   
   @keyframes pulse {
