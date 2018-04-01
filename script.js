@@ -12,13 +12,13 @@ window.onload = function () {
           
         $.getJSON(api, function(data){
           var weatherType = data.weather[0].description;
-          var weather = data.main.temp;
+          var weather = Math.round(data.main.temp);
           var city = data.name;
     
           $("#tempsign").on("click", function(){
             var unit = $("#tempsign").text();
             if (unit.indexOf("C") == 1) {
-              $("#weather").html(weather * 9 / 5 + 32);
+              $("#weather").html(Math.round(weather * 9 / 5 + 32));
               $("#tempsign").html(String.fromCharCode(176) + "F");
             } else {
               $("#weather").html(weather);
