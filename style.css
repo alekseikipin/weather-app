@@ -22,23 +22,23 @@ body {
   }
   
   h1 {
-    font-size: 40px;
+    font-size: 4vw;
   }
   
   p {
-    font-size: 30px;
-      margin: 0;
+    font-size: 2.5vw;
+    margin: 0;
   }
   #weather {
-    font-size: 120px;
+    font-size: 4vw;
   }
   
   .dot {
     margin-left: 10px;
     margin-bottom: -1px;
     display: inline-block;
-    width: 4px;
-    height: 6px;
+    width: 0.2vw;
+    height: 0.4vw;
     animation: pulse 1s infinite;
   }
   
@@ -67,3 +67,29 @@ body {
       background-color: black;
     }
   }
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    h1 {
+        font-size: 14vw;
+      }
+      
+      p {
+        font-size: 10vw;
+        margin: 0;
+      }
+
+      #weather {
+        font-size: 4vw;
+      }
+      
+      .dot {
+        margin-left: 10px;
+        margin-bottom: -1px;
+        width: 0.2vw;
+        height: 0.4vw;
+      }
+}
