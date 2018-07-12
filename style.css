@@ -30,7 +30,7 @@ body {
     margin: 0;
   }
   #weather {
-    font-size: 4vw;
+    font-size: 8vw;
   }
   
   .dot {
@@ -55,7 +55,7 @@ body {
   }
   
   #tempsign {
-    font-size: 120px;
+    font-size: 8vw;
     color: #00B09B;
   }
   
@@ -69,10 +69,8 @@ body {
   }
 
 @media only screen 
-  and (min-width: 320px) 
-  and (max-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  and (min-width: 300px) 
+  and (max-width: 667px) { 
     h1 {
         font-size: 14vw;
       }
@@ -83,7 +81,7 @@ body {
       }
 
       #weather {
-        font-size: 4vw;
+        font-size: 40vw;
       }
       
       .dot {
